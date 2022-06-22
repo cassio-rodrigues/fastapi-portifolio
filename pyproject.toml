@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastAPI Portifolio"
+version = "0.1.0"
+description = "python API using fastAPI framework, poetry package manager and etc..."
+authors = ["Cassio Rodrigues da Silva"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.78.0"
+uvicorn = "^0.17.6"
+httpx = "^0.23.0"
+Jinja2 = "^3.1.2"
+aiofiles = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
